@@ -80,3 +80,32 @@ Standard Class carries about 60% of the orders and takes 5.01 days on average. S
 5. **Look at profit and not only sales when ranking customers.**
    The top customer by sales, Sean Miller, lost 1,980.74. Keep the 117 High-value customers, who bring 49% of the profit, and check profitability before giving large discounts to any customer.
 
+
+## Project structure
+
+| File | What it does |
+|---|---|
+| `01_load_raw.sql` | Creates the database and checks the imported raw table (row count, column types) |
+| `02_data_quality_checks_and_cleaning.sql` | Checks the raw data, builds `Superstore_clean` and verifies it |
+| `03_analysis.sql` | 19 business queries (Q1 to Q19) with the SQL used for each finding |
+
+## How to run this project
+
+1. Install SQL Server Express and SSMS.
+2. Download `Sample - Superstore.csv` from Kaggle ("Superstore Dataset"). The data file is not stored in this repository.
+3. Run `01_load_raw.sql` to create the `case_study` database.
+4. In SSMS, right-click `case_study`, choose Tasks > Import Flat File, and import the CSV as the table `Superstore_raw`.
+   - Keep `Order_Date`, `Ship_Date` and `Postal_Code` as `varchar(50)`
+   - Set `Product_Name` to `nvarchar(150)`
+   - Set `Sales`, `Discount` and `Profit` to `decimal(18,10)`
+   - Tick Allow Nulls for all columns
+5. Run `02_data_quality_checks_and_cleaning.sql` to build `Superstore_clean` (9,993 rows).
+6. Run the queries in `03_analysis.sql` one at a time.
+
+## Skills used
+Aggregations, `GROUP BY` and `HAVING`, `CASE WHEN`, CTEs, subqueries, window functions (`LAG`, `RANK`, running totals with `SUM() OVER`), `DATEDIFF`, data cleaning and validation.
+
+## Limitations
+- This is a sample dataset, so the numbers (for example the 98% repeat-customer rate) are not a real company's results.
+- The data shows that heavy discounts and losses go together. It doesn't prove that discounts are the only cause. Costs and product mix could also play a part.
+- One duplicate row was removed because it was identical to another row apart from its ID. If both lines were real, sales would be 281.37 higher.
