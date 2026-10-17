@@ -44,22 +44,22 @@ Rows with negative profit were kept on purpose, because they are real losses and
 | Total profit | 286,409.08 |
 | Profit margin | 12.47% |
 
-**1. Sales grow, but the margin is slipping (Q6, Q7).**
+**1. Sales grow, but the margin is slipping.**
 Yearly sales rose from 483,966 in 2014 to 733,215 in 2017. The biggest jump was in 2016 (+29.47%), after a small dip in 2015 (-2.78%). The margin fell from 13.43% in 2016 to 12.74% in 2017. September to December bring about half of the yearly sales, and November is the best month (118,447.83 in 2017).
 
-**2. Furniture earns almost nothing (Q2, Q9, Q10).**
+**2. Furniture earns almost nothing.**
 Furniture has a profit margin of only 2.49%, against 17.40% for Technology and 17.04% for Office Supplies. Two sub-categories lose money: Tables (-17,725.48) and Bookcases (-3,472.56). Tables and Machines each appear four times in the 10 worst products by profit.
 
-**3. Discounts above 20% turn sales into losses (Q11, Q12).**
+**3. Discounts above 20% turn sales into losses.**
 Order lines with no discount have a margin of 29.51%. With a discount up to 20% it falls to 11.91%, and above 20% it is -37.34% (an average loss of 97.24 per line). 1,870 order lines (18.71%) lose money, a total of 156,119.23, and their average discount is 48.1%.
 
-**4. Two states pull down the Central region (Q3, Q13).**
+**4. Two states pull down the Central region.**
 Central has the lowest margin of the four regions (7.92%). Texas (-25,729.36) and Illinois (-12,607.89) lose money, while the other 11 Central states are profitable. Texas and Illinois give average discounts of about 37% to 39%, and the profitable Central states give almost none.
 
-**5. A few customers carry the profit (Q8, Q18, Q19).**
+**5. A few customers carry the profit.**
 The 117 High-value customers (15% of 793) bring about 40% of the sales and 49% of the profit. The biggest customer by sales, Sean Miller (25,043.05), lost 1,980.74. Almost all customers (98.49%) ordered more than once, but this is a sample dataset, so it is not a real retention rate.
 
-**6. Shipping (Q5, Q17).**
+**6. Shipping.**
 Standard Class carries about 60% of the orders and takes 5.01 days on average. Same Day takes 0.04 days on average.
 
 
