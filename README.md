@@ -61,3 +61,5 @@ The 117 High-value customers (15% of 793) bring about 40% of the sales and 49% o
 
 **6. Shipping (Q5, Q17).**
 Standard Class carries about 60% of the orders and takes 5.01 days on average. Same Day takes 0.04 days on average.
+
+
