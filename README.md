@@ -63,3 +63,20 @@ The 117 High-value customers (15% of 793) bring about 40% of the sales and 49% o
 Standard Class carries about 60% of the orders and takes 5.01 days on average. Same Day takes 0.04 days on average.
 
 
+## Recommendations
+
+1. **Limit discounts to 20%, and review every discount above that.**
+   Order lines with a discount above 20% lose 97.24 on average, and 1,870 lines lose money in total. Start with Texas, Illinois and the Central region, where the average discounts are highest.
+
+2. **Fix the pricing of Tables and Bookcases.**
+   Together they lose about 21,200 and keep Furniture at a 2.49% margin. Raise prices, cut discounts, or drop the worst products.
+
+3. **Review the biggest loss-making products.**
+   The Cubify CubeX 3D printers (-8,879.97 and -3,839.99) and the Lexmark MX611dhe printer (-4,589.97) lose far more than any other product. Check their costs and discounts.
+
+4. **Prepare for the September to December peak.**
+   These months bring about half of the yearly sales, so stock and staffing should be planned for them. Also investigate April 2017, when the margin fell to about 2.6%.
+
+5. **Look at profit and not only sales when ranking customers.**
+   The top customer by sales, Sean Miller, lost 1,980.74. Keep the 117 High-value customers, who bring 49% of the profit, and check profitability before giving large discounts to any customer.
+
